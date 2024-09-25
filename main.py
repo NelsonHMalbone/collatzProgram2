@@ -7,7 +7,7 @@ def collatz(num):
     if num % 2 == 0:  # for the even numbers
         result = num // 2
     elif num % 2 == 1: # the odd numbers
-        result = 3 * num + 2
+        result = 3 * num + 1
 
     while result == 1:
         print(result)
